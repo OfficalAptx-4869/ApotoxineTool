@@ -1,2 +1,7 @@
 # AptxPhisher
-APTX PHISHER IS TOOL CAN GET YOU BEST PHISHING TOOLS
+
+how to install 
+
+git clone https://github.com/OfficalAptx-4869/AptxPhisher
+
+cd AptxPhisher
