@@ -7,6 +7,7 @@ clear
 echo "ALL TERMUX BASICS INSTALLED"
 echo "Thank You for using AptxBasics"
 echo "The Tool Will be deleted after 1 sec"
+echo "use the command ""cd"" to exit the tool"
 echo "bye ;)"
 cd
 rm -rf AptxBasics
