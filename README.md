@@ -2,7 +2,7 @@
 
 Thats How you can install the tool
 
-git clone https://github.com/OfficalAptx-4869/AptxPhisher
+git clone https://github.com/OfficalAptx-4869/AptxBasics
 cd AptxBasics
 chmod +x install.sh
 ./install.sh
