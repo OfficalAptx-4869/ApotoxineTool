@@ -1,5 +1,4 @@
-# AptxBasics is tool which can install all
-# termux basics with only one command !
+# AptxBasics is tool which can install all termux basics with only one command !
 
 Thats How you can install the tool
 
