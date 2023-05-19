@@ -1,5 +1,4 @@
 #!/bin/bash
-#banner
 
 #installation of tools
 apt update && apt upgrade -y
