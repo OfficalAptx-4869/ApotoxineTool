@@ -62,11 +62,12 @@ bash t-ban.sh
 clear
 echo "please restart termux to save changes"
 
-elif [[$user == 4]]; then
+elif [[ $user == 5 ]]; then
 
 cd TBomb
 
 ./TBomb.sh
+
     fi
 
 }
