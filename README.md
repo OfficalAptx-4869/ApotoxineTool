@@ -4,7 +4,7 @@ Thats How you can install the tool
 
 git clone https://github.com/OfficalAptx-4869/ApotoxineTool
 
-cd APOTOXINE
+cd ApotoxineTool
 
 chmod +x aptx.sh
 
