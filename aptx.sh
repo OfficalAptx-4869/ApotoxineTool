@@ -71,11 +71,8 @@ elif [[ $user == 5 ]]; then
 cd TBomb
 
 ./TBomb.sh
-elif
-[[$user == 6]] then
+
+elif [[ $user == 6 ]] then
 cd AresBomb
 python boom.py
-
-    fi
-
-}
+fi
