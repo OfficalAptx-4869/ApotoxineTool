@@ -13,8 +13,6 @@ pip install NPhish
 clear
 git clone https://github.com/TheSpeedX/TBomb.git
 clear
-git clone https://github.com/batiscuff/duplo-bomber
-clear
 echo "press any button to start the tool !"
 read
 clear
@@ -32,8 +30,6 @@ echo ""
 echo "4 - Change Termux Banner"
 echo ""
 echo "5 - Tbomb (sms spam tool)"
-echo ""
-echo "6 - Duplo bomber (sms spam tool)"
 
 #if statment
 echo ""
@@ -72,9 +68,7 @@ cd TBomb
 
 ./TBomb.sh
 
-elif [[ $user == 6 ]] then
-cd duplo-bomber
-pip install -r requirements.txt
-python3 duplo_spam.py
+#elif [[ $user == 6 ]] then
+
 
 fi
