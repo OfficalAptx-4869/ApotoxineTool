@@ -1,4 +1,4 @@
-# AptxBasics is tool which can install all termux basics with only one command !
+# AptxBasics is tool for installing all termux packages & basics & best phishing tools !
 
 Thats How you can install the tool
 
