@@ -11,7 +11,7 @@ clear
 echo "Please press any button"
 pip install NPhish
 clear
-pip3 install tbomb
+git clone https://github.com/TheSpeedX/TBomb.git
 clear
 echo "press any button to start the tool !"
 read
@@ -63,7 +63,10 @@ clear
 echo "please restart termux to save changes"
 
 elif [[$user == 4]]; then
-tbomb
+
+cd TBomb
+
+./TBomb.sh
     fi
 
 }
