@@ -14,6 +14,9 @@ clear
 git clone https://github.com/TheSpeedX/TBomb.git
 clear
 git clone https://github.com/MaksPV/AresBomb
+clear
+git clone https://github.com/batiscuff/duplo-bomber
+clear
 echo "press any button to start the tool !"
 read
 clear
@@ -33,10 +36,11 @@ echo ""
 echo "5 - Tbomb (sms spam tool)"
 echo ""
 echo "6 - aresbomb (sms spam tool)"
-
+echo ""
+echo "7 - Duplo bomber (sms spam tool)"
 
 #if statment
-echo""
+echo ""
 read -p "Choose : " user
 
 if [ $user = 1 ]; then
@@ -75,4 +79,9 @@ cd TBomb
 elif [[ $user == 6 ]] then
 cd AresBomb
 python boom.py
+
+elif [[$user == 7]] then
+cd duplo-bomber
+pip install -r requirements.txt
+python3 duplo_spam.py
 fi
