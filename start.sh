@@ -51,6 +51,8 @@ chmod +x t-ban.sh
 bash requirement.sh
 
 bash t-ban.sh
+clear
+echo "please restart termux to save changes"
 
     fi
 
