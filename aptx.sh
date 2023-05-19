@@ -11,6 +11,8 @@ clear
 echo "Please press any button"
 pip install NPhish
 clear
+pip3 install tbomb
+clear
 echo "press any button to start the tool !"
 read
 clear
@@ -19,13 +21,15 @@ clear
 echo " Welcome to Aptoxine Tool !"
 echo ""
 echo ""          
-echo "1 - NPhish Tool"
+echo "1 - NPhish Tool (phishing tool)"
 echo ""
-echo "2 - zphisher Tool"
+echo "2 - zphisher Tool (phishing tool)"
 echo ""
 echo "3 - install All termux Basics"
 echo ""
 echo "4 - Change Termux Banner"
+echo ""
+echo "5 - Tbomb (sms spam tool)"
 
 #if statment
 
@@ -58,6 +62,8 @@ bash t-ban.sh
 clear
 echo "please restart termux to save changes"
 
+elif [[$user == 4]]; then
+tbomb
     fi
 
 }
