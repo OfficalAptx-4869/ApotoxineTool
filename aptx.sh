@@ -13,6 +13,7 @@ pip install NPhish
 clear
 git clone https://github.com/TheSpeedX/TBomb.git
 clear
+git clone https://github.com/MaksPV/AresBomb
 echo "press any button to start the tool !"
 read
 clear
@@ -30,9 +31,12 @@ echo ""
 echo "4 - Change Termux Banner"
 echo ""
 echo "5 - Tbomb (sms spam tool)"
+echo ""
+echo "6 - aresbomb (sms spam tool)"
+
 
 #if statment
-
+echo""
 read -p "Choose : " user
 
 if [ $user = 1 ]; then
@@ -67,6 +71,10 @@ elif [[ $user == 5 ]]; then
 cd TBomb
 
 ./TBomb.sh
+elif
+[[$user == 6]] then
+cd AresBomb
+python boom.py
 
     fi
 
