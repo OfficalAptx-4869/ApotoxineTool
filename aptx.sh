@@ -76,4 +76,5 @@ elif [[$user == 6]] then
 cd duplo-bomber
 pip install -r requirements.txt
 python3 duplo_spam.py
+
 fi
