@@ -17,11 +17,6 @@ clear
 
 #menu
 echo " AptxBasics Tool !"
-echo"_____"
-echo"_____"
-echo"_____"
-echo"_____"
-echo"_____"
           
 echo "1 - NPhish Tool"
 echo "2 - zphisher Tool"
@@ -33,8 +28,8 @@ read -p "Enter a number : " user
 nphish="1"
 
 if [ "$user" = "$nphish" ]; then
-
-    NPhish
+pip install NPhish
+NPhish
 
 fi
 
