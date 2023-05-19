@@ -6,6 +6,6 @@ git clone https://github.com/OfficalAptx-4869/AptxBasics
 
 cd AptxBasics
 
-chmod +x install.sh
+chmod +x start.sh
 
-./install.sh
+./start.sh
