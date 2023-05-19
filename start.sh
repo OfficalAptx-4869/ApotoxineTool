@@ -9,8 +9,9 @@ pkg install zphisher
 clear
 echo "press any button to start !"
 read
+clear
 
-
+#menu
 echo " AptxBasics Tool !"
           
           
@@ -20,6 +21,8 @@ echo "3 - install All termux Basics"
 NPhish=1
 zphisher=2
 termuxbasics=3
+
+#if statment
 
 if [ $NPhish -eq 1 ]
 
