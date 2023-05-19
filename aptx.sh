@@ -17,10 +17,14 @@ clear
 
 #menu
 echo " Welcome to Aptoxine Tool !"
-          
+echo ""
+echo ""          
 echo "1 - NPhish Tool"
+echo ""
 echo "2 - zphisher Tool"
+echo ""
 echo "3 - install All termux Basics"
+echo ""
 echo "4 - Change Termux Banner"
 
 #if statment
