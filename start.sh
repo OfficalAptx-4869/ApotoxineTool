@@ -25,7 +25,7 @@ if [ $NPhish -eq 1 ]
 
 then
 
-nphish
+NPhish
 
 cd
 
