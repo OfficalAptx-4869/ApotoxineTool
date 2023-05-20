@@ -55,6 +55,8 @@ echo ""
 echo -e "\e[33m6 - Install KaliLinux on Phone\e[0m"
 echo ""
 echo -e "\e[33m7 - Run KaliLinux\e[0m"
+echo ""
+echo -e "\e[33m99 - Exit Tool\e[0m"
 
 
 #if statment
@@ -128,6 +130,9 @@ echo ""
 echo ""
 echo ""
 nethunter
+elif [[ $user == 99 ]] then
+clear
+cd
 else
 echo "Wrong input"
 ./aptx.sh
