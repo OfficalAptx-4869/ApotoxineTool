@@ -127,11 +127,9 @@ elif [[ $user == MarkHack ]] then
 clear
 echo "Enter Person Name :"
 read
-echo "Enter درجات : "
-read
-echo "السنه الدراسيه :"
+echo "Enter daragat number : "
 read
 echo "seat number :"
 read
-echo "تم إضافة الدرجات بنجاح"
+echo "marks added !"
 fi
