@@ -96,7 +96,7 @@ chmod +x install-nethunter-termux
 ./install-nethunter-termux
 
 elif [[ $user == 7 ]] then 
-"Note : You should choose kaliLinux on phone before choosing run KaliLinux !"
+echo "Note : You should choose kaliLinux on phone before choosing run KaliLinux !"
 nethunter
 passwd
 apotoxine
