@@ -96,15 +96,25 @@ chmod +x install-nethunter-termux
 ./install-nethunter-termux
 
 elif [[ $user == 7 ]] then 
-echo "Note : You should choose kaliLinux on phone before choosing run KaliLinux !"
-nethunter
-passwd
-apotoxine
-apotoxine
-kex
-echo "How to run KaliLinux :"
+clear
+echo "Note : You should choose install kaliLinux on phone before choosing run KaliLinux !"
+echo ""
+echo "How to run Kali Linux :"
+echo ""
+echo "- type nethunter"
+echo ""
+echo "- type passwd"
+echo ""
+echo "- creare your password"
+echo ""
+echo "- type your password again to verify"
+echo ""
+echo "- type kex"
+echo ""
 echo "install Nethunter kex"
+echo ""
 echo "Set Port : 5901"
+echo ""
 echo "set password : apotoxine"
 echo ""
 echo "thank you for using AptxTool"
