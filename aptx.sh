@@ -21,7 +21,6 @@ read
 clear
 
 #menu
-Set the color variable
 blue='\033[0;34m'
 echo "
     _    ____ _______  __ 
@@ -30,7 +29,6 @@ echo "
  / ___ \|  __/ | |  /  \        
 /_/   \_\_|    |_| /_/\_\ 
 "
-Set the color variable
 red='\033[0;31m'
 echo "
  _____           _
