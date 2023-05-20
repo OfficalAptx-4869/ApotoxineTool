@@ -20,14 +20,14 @@ read
 clear
 
 #menu
-echo -e "\e[31
+echo -e "\e[32m
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
   / _ \ | |_) || |  \  /       
  / ___ \|  __/ | |  /  \        
 /_/   \_\_|    |_| /_/\_\ 
 \e[0m"
-echo -e "\e[31
+echo -e "\e[32m
  _____           _
 |_   _|__   ___ | |
   | |/ _ \ / _ \| |
@@ -37,9 +37,9 @@ echo -e "\e[31
                     \e[0m"
 echo ""
 echo ""
-echo "Note : some tools requires installing all
+echo -e "\e[31mNote : some tools requires installing all
 termux packages so please choose number 3
-before choosing any tool to run !"
+before choosing any tool to run !\e[0m"
 echo ""          
 echo ""
 echo "1 - NPhish Tool (phishing tool)"
