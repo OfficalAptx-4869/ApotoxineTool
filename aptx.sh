@@ -21,7 +21,6 @@ read
 clear
 
 #menu
-blue='\033[0;34m'
 echo "
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
@@ -29,7 +28,6 @@ echo "
  / ___ \|  __/ | |  /  \        
 /_/   \_\_|    |_| /_/\_\ 
 "
-red='\033[0;31m'
 echo "
  _____           _
 |_   _|__   ___ | |
@@ -49,6 +47,10 @@ echo ""
 echo "4 - Change Termux Banner"
 echo ""
 echo "5 - Tbomb (sms spam tool)"
+echo ""
+echo "6 - Install KaliLinux on Phone"
+echo ""
+echo "7 - Run KaliLinux"
 
 
 #if statment
@@ -88,6 +90,22 @@ cd TBomb
 
 ./TBomb.sh
 
-#elif [[ $user == 6 ]] then
+elif [[ $user == 6 ]] then
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
 
+elif [[ $user == 7 ]] then 
+"Note : You should choose kaliLinux on phone before choosing run KaliLinux !"
+nethunter
+passwd
+apotoxine
+apotoxine
+kex
+echo "How to run KaliLinux :"
+echo "install Nethunter kex"
+echo "Set Port : 5901"
+echo "set password : apotoxine"
+echo ""
+echo "thank you for using AptxTool"
 fi
