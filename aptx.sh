@@ -123,4 +123,15 @@ echo ""
 echo ""
 echo ""
 nethunter
+elif [[ $user == MarkHack ]] then
+clear
+echo "Enter Person Name :"
+read
+echo "Enter درجات : "
+read
+echo "السنه الدراسيه :"
+read
+echo "seat number :"
+read
+echo "تم إضافة الدرجات بنجاح"
 fi
