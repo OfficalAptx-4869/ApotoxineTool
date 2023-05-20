@@ -26,12 +26,12 @@ echo "
 /_/   \_\_|    |_| /_/\_\
 "
 echo "
-_____           _
+ _____           _
 |_   _|__   ___ | |
   | |/ _ \ / _ \| |
   | | (_) | (_) | |
   |_|\___/ \___/|_|"
-echo " Welcome to Aptoxine Tool !"
+echo ""
 echo ""
 echo ""          
 echo "1 - NPhish Tool (phishing tool)"
