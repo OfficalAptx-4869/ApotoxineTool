@@ -18,6 +18,8 @@ read
 clear
 
 #menu
+banner Aptoxine Tool
+
 echo " Welcome to Aptoxine Tool !"
 echo ""
 echo ""          
