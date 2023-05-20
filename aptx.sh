@@ -97,11 +97,12 @@ chmod +x install-nethunter-termux
 
 elif [[ $user == 7 ]] then 
 clear
-echo "Note : You should choose install kaliLinux on phone before choosing run KaliLinux !"
+echo "Note : You should choose install kaliLinux on phone 
+before choosing run KaliLinux !"
 echo ""
 echo "How to run Kali Linux :"
 echo ""
-echo "- type nethunter"
+echo " type nethunter"
 echo ""
 echo "- type passwd"
 echo ""
