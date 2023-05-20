@@ -3,7 +3,7 @@
 
 
 #installation of tools
-
+echo -e "\e[32mRed text\e[0m"
 apt update && apt upgrade -y
 pkg install tur-repo
 clear
@@ -21,6 +21,7 @@ read
 clear
 
 #menu
+echo -e "\e[32mRed text\e[0m"
 echo "
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
