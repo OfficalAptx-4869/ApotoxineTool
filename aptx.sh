@@ -3,7 +3,6 @@
 
 
 #installation of tools
-echo -e "\e[32mRed text\e[0m"
 apt update && apt upgrade -y
 pkg install tur-repo
 clear
@@ -21,21 +20,21 @@ read
 clear
 
 #menu
-echo -e "\e[32mRed text\e[0m"
-echo "
+echo -e "\e[31
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
   / _ \ | |_) || |  \  /       
  / ___ \|  __/ | |  /  \        
 /_/   \_\_|    |_| /_/\_\ 
-"
-echo "
+\e[0m"
+echo -e "\e[31
  _____           _
 |_   _|__   ___ | |
   | |/ _ \ / _ \| |
   | | (_) | (_) | |
   |_|\___/ \___/|_| [by MohamedBahaa]
-                    [Version = 1.0]"
+                    [Version = 1.0]
+                    \e[0m"
 echo ""
 echo ""
 echo "Note : some tools requires installing all
