@@ -123,4 +123,7 @@ echo ""
 echo ""
 echo ""
 nethunter
+else
+echo "Wrong input"
+./aptx.sh
 fi
