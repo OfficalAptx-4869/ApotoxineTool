@@ -1,4 +1,26 @@
 #!/bin/bash
+# COLOURS
+
+from colorama import Fore, Back, Style
+
+red = Fore.RED + Style.BRIGHT
+
+green = Fore.GREEN + Style.BRIGHT
+
+yellow = Fore.YELLOW + Style.BRIGHT
+
+blue = Fore.BLUE + Style.BRIGHT
+
+purple = Fore.MAGENTA + Style.BRIGHT
+
+cyan = Fore.CYAN + Style.BRIGHT
+
+white = Fore.WHITE + Style.BRIGHT
+
+no_colour = Fore.RESET + Back.RESET + Style.RESET_ALL
+
+
+
 #installation of tools
 
 apt update && apt upgrade -y
