@@ -219,13 +219,13 @@ read -p "(Y/N) :" QeumVerify
 
 if [ "$QeumVerify" == "Y" ]; then
 
-    echo "Example : storage/emulated/0/download/(file name.img)"
+     echo -e "\e[33Example : storage/emulated/0/download/(file name.img)\e[0m"
 
-    echo "windows file extension must be (.img / .qcow2)"
+    echo -e "\e[33windows file extension must be (.img / .qcow2)\e[0m"
 
     echo ""
 
-    read -p "Enter Windows file path : " path
+    read -p echo -e "\e[31Enter Windows file path : \e[0m" path
 
     qemu-system-i386 -hda "$path" -vnc 127.0.0.1:1
 
@@ -235,8 +235,12 @@ elif [ "$QeumVerify" == "N" ]; then
 
     cd
 
-    echo -e "\e[33mplease run the command (./aptx.sh) and install qeum system by choosing the number (9) !\e[0m"
-
+    echo -e "\e[33mplease run the command (./aptx.sh) and install 
+    qeum system by choosing the number (9) !\e[0m"
+    else
+    clear
+    echo "Wrong Input"
+    ./aptx.sh
 fi 
 elif [[ $user == 99 ]] then
 clear
