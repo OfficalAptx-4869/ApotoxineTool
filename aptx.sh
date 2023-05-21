@@ -225,7 +225,7 @@ if [ "$QeumVerify" == "Y" ]; then
 
     echo ""
 
-    read -p echo -e "\e[31Enter Windows file path : \e[0m" path
+    read -p "Enter Windows file path : " path
 
     qemu-system-i386 -hda "$path" -vnc 127.0.0.1:1
 
