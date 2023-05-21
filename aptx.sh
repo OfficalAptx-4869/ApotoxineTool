@@ -99,7 +99,14 @@ echo -e "\e[33m9 - Install qemu system\e[0m"
 
 echo ""
 
+#Windows on mobile
+echo -e "\e[33m10 - Run Windows on phone\e[0m"
+
+echo ""
+
 #Exit Apotoxine Tool
+echo "Exit AptxTool"
+echo ""
 echo -e "\e[33m99 - Exit Tool\e[0m"
 
 
@@ -201,6 +208,10 @@ clear
 echo ""
 echo ""
 echo -e "\e[32mQEUM SYSTEM INSTALLED !\e[0m"
+elif [[ $user == 10 ]] then 
+clear
+read -p "Enter Windows file path : " path
+qemu-system-i386 -hda + $path + -vnc 127.0.0.1:1
 elif [[ $user == 99 ]] then
 clear
 cd
