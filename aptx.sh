@@ -211,7 +211,6 @@ elif [[ $user == 10 ]] then
 clear
 echo -e "\e[31m NOTE : Running Windows on phone Requires qeum system package\e[0m"
 read -p "\e[31m NOTE : did you install it (Y/N)\e[0m" qeumverify
-{
 if [[ $qeumverify == "Y" ]] then
 echo "Example : storage/emulated/0/download/(file name.img)"
 echo "windows file extension must be (.img / .qcow2)"
@@ -223,7 +222,6 @@ clear
 cd
 echo -e "\e[33mplease run the command (./aptx.sh) and install
 qeum system by choosing the number (9) !\e[0m"
-}
 elif [[ $user == 99 ]] then
 clear
 cd
