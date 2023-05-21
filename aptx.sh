@@ -76,11 +76,13 @@ if [ $user = 1 ]; then
         zphisher
 
     elif [[ $user = 3 ]]; then
+    clear
 
 pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y && pkg install wcalc -y && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y && pkg install toilet && pkg install sl && pkg install vim && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrade
         ./aptx.sh
         echo "All Termux Packages installed !"
       elif [[ $user = 4 ]]; then
+      clear
       git clone https://github.com/Bhai4You/Termux-Banner
 
 cd Termux-Banner
@@ -102,6 +104,7 @@ cd TBomb
 ./TBomb.sh
 
 elif [[ $user == 6 ]] then
+clear
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 chmod +x install-nethunter-termux
 ./install-nethunter-termux
