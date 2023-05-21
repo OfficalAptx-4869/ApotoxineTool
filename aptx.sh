@@ -209,19 +209,26 @@ echo ""
 echo ""
 elif [[ $user == 10 ]] then 
 clear
-echo "NOTE : Running Windows on mobile requires installing qeum system"
+echo "NOTE : Running Windows on mobile requires installing qeum system
++ setuping termux storage"
 
 echo ""
 
-echo "did you install qeum system ?"
+echo "did you install qeum system & setup termux storage ?"
 
-read -p "(y/n) :" QeumVerify
+read -p "(Y/N) :" QeumVerify
 
 if [ "$QeumVerify" == "Y" ]; then
+clear
 echo -e "\e[33mExample : storage/emulated/0/download/(file name.img)\e[0m"
 echo -e "\e[33mwindows file extension must be (.img / .qcow2)\e[0m"
+echo ""
 read -p "Enter Windows file path : " path
 qemu-system-i386 -hda "$path" -vnc 127.0.0.1:1
+echo ""
+echo -e "\e[37mDo you have any issue ?
+check if qeum system package is installed
+check if you setuped termux storage\e[0m"
 elif [ "$QeumVerify" == "N" ]; then
 
     clear
@@ -234,47 +241,6 @@ elif [ "$QeumVerify" == "N" ]; then
     clear
     echo "Wrong Input"
     ./aptx.sh
-fi 
-elif [[ $user == 10 ]] then 
-
-clear
-
-echo "NOTE : Running Windows on mobile requires installing qeum system"
-
-echo ""
-
-echo "did you install qeum system ?"
-
-read -p "(y/n) :" QeumVerify
-
-if [ "$QeumVerify" == "y" ]; then
-
-echo -e "\e[33mExample : storage/emulated/0/download/(file name.img)\e[0m"
-
-echo -e "\e[33mwindows file extension must be (.img / .qcow2)\e[0m"
-
-read -p "Enter Windows file path : " path
-
-qemu-system-i386 -hda "$path" -vnc 127.0.0.1:1
-
-elif [ "$QeumVerify" == "n" ]; then
-
-    clear
-
-    cd
-
-    echo -e "\e[33mplease run the command (./aptx.sh) and install 
-
-    qeum system by choosing the number (9) !\e[0m"
-
-    else
-
-    clear
-
-    echo "Wrong Input"
-
-    ./aptx.sh
-
 fi 
 elif [[ $user == 99 ]] then
 clear
