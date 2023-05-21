@@ -40,7 +40,7 @@ echo -e "\e[32m
 echo ""
 echo ""
 echo -e "\e[31mNote : some tools requires installing all
-termux packages so please choose number 5
+termux packages so please choose number 4
 before choosing any tool to run !\e[0m"
 
 
