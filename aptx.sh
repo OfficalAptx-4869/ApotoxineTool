@@ -222,7 +222,7 @@ read -p "(Y/N) :" QeumVerify
 
 if [ "$QeumVerify" == "Y" ]; then
 clear
-echo -e "\e[33mExample : storage/emulated/0/download/(file name.img)\e[0m"
+echo -e "\e[33mExample : /storage/emulated/0/download/(file name.img)\e[0m"
 echo -e "\e[33mwindows file extension must be (.img / .qcow2)\e[0m"
 echo ""
 read -p "Enter Windows file path : " path
