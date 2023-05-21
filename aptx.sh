@@ -56,6 +56,10 @@ echo -e "\e[33m6 - Install KaliLinux on Phone\e[0m"
 echo ""
 echo -e "\e[33m7 - Run KaliLinux\e[0m"
 echo ""
+echo -e "\e[33m8 - Install qemu system\e[0m"
+echo ""
+echo -e "\e[33m9 - setup termux storage\e[0m"
+echo ""
 echo -e "\e[33m99 - Exit Tool\e[0m"
 
 
@@ -130,6 +134,23 @@ echo ""
 echo ""
 echo ""
 nethunter
+elif [[ $user == 8 ]] then
+clear
+pkg install x11-repo
+pkg install qemu-system-i386-headless -y
+pkg install qemu-system-i386 -y
+clear
+./aptx.sh
+echo ""
+echo ""
+echo -e "\e[32mQEUM SYSTEM INSTALLED !\e[0m"
+elif [[ $user == 9 ]] then
+clear
+termux-setup-storage
+./aptx.sh
+echo ""
+echo ""
+echo -e "\e[32mTERMUX STORAGE SETUPED !\e[0m"
 elif [[ $user == 99 ]] then
 clear
 cd
