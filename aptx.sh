@@ -40,8 +40,10 @@ echo -e "\e[32m
 echo ""
 echo ""
 echo -e "\e[31mNote : some tools requires installing all
-termux packages so please choose number 4
-before choosing any tool to run !\e[0m"
+termux packages so please choose number (4)
+before choosing any tool to run & to run windows on 
+phone you have to install qeum system by choosing (9)
+and setup termux storage by choosing (6)!\e[0m"
 
 
 #TOOLS 
@@ -209,8 +211,8 @@ echo ""
 echo ""
 elif [[ $user == 10 ]] then 
 clear
-echo "NOTE : Running Windows on mobile requires installing qeum system
-+ setuping termux storage"
+echo "NOTE : Running Windows on mobile requires installing 
+qeum system + setuping termux storage"
 
 echo ""
 
