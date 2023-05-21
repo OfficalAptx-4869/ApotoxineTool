@@ -78,7 +78,7 @@ echo ""
 
 #Termux Storage
 echo -e "\e[33m6 - setup termux storage\e[0m"
-
+echo ""
 
 #Operating Systems
 echo "Operating systems :"
