@@ -114,6 +114,12 @@ if [ $user = 1 ]; then
     elif [[ $user = 2 ]]; then
 
         zphisher
+        
+        elif [[ $user == 3 ]]; then
+
+cd TBomb
+
+./TBomb.sh
 
     elif [[ $user = 4 ]]; then
     clear
@@ -137,11 +143,19 @@ bash t-ban.sh
 clear
 echo "please restart termux to save changes"
 
-elif [[ $user == 3 ]]; then
+elif [[ $user == 6 ]] then
 
-cd TBomb
+clear
 
-./TBomb.sh
+termux-setup-storage
+
+./aptx.sh
+
+echo ""
+
+echo ""
+
+echo -e "\e[32mTERMUX STORAGE SETUPED !\e[0m"
 
 elif [[ $user == 7 ]] then
 clear
@@ -177,7 +191,7 @@ echo ""
 echo ""
 echo ""
 nethunter
-elif [[ $user == 8 ]] then
+elif [[ $user == 9 ]] then
 clear
 pkg install x11-repo
 pkg install qemu-system-i386-headless -y
@@ -187,13 +201,6 @@ clear
 echo ""
 echo ""
 echo -e "\e[32mQEUM SYSTEM INSTALLED !\e[0m"
-elif [[ $user == 6 ]] then
-clear
-termux-setup-storage
-./aptx.sh
-echo ""
-echo ""
-echo -e "\e[32mTERMUX STORAGE SETUPED !\e[0m"
 elif [[ $user == 99 ]] then
 clear
 cd
