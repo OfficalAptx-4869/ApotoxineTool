@@ -215,14 +215,14 @@ echo ""
 
 echo "did you install qeum system ?"
 
-read -p "(Y/N) :" QeumVerify
+read -p "(y/n) :" QeumVerify
 
-if [ "$QeumVerify" == "Y" ]; then
+if [ "$QeumVerify" == "y" - "Y" ]; then
 echo -e "\e[33mExample : storage/emulated/0/download/(file name.img)\e[0m"
 echo -e "\e[33mwindows file extension must be (.img / .qcow2)\e[0m"
 read -p "Enter Windows file path : " path
 qemu-system-i386 -hda "$path" -vnc 127.0.0.1:1
-elif [ "$QeumVerify" == "N" ]; then
+elif [ "$QeumVerify" == "n" - "N" ]; then
 
     clear
 
