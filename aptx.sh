@@ -35,7 +35,7 @@ echo -e "\e[32m
   | |/ _ \ / _ \| |
   | | (_) | (_) | |
   |_|\___/ \___/|_| [by MohamedBahaa]
-                    [Version = 1.0]
+                    [Version = 1.1.0]
                     \e[0m"
 echo ""
 echo ""
