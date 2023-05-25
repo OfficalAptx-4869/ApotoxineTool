@@ -143,6 +143,7 @@ cd TBomb
     ./finduser.sh
     else
     chmod +x finduser.sh
+    ./finduser.sh
     fi
     
     elif [[ $user == 5 ]] then
