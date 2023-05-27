@@ -16,6 +16,9 @@ clear
 git clone https://github.com/TheSpeedX/TBomb.git
 clear
 git clone https://github.com/xHak9x/finduser
+clear
+git clone https://github.com/MasterDevX/Termux-Java
+clear
 echo "press any button to start the tool !"
 read
 clear
@@ -109,6 +112,13 @@ echo ""
 #Windows on mobile
 echo -e "\e[33m11 - Run Windows on phone\e[0m"
 
+echo ""
+
+#Minecraft
+echo -e "\e[33mMinecraft :\e[0m"
+echo ""
+#Host Minecraft Server
+echo -e "\e[33m12 - Host Minecraft Server\e[0m"
 echo ""
 
 #Exit Apotoxine Tool
@@ -259,6 +269,28 @@ elif [ "$QeumVerify" == "N" ]; then
     echo "Wrong Input"
     ./aptx.sh
 fi 
+elif [[ $user == 12 ]] then
+
+pkg install proot git wget
+
+cd Termux-Java
+
+chmod +x installjava
+
+bash installjava
+
+ifconfig
+
+proot -0
+
+java -version
+
+read -p "Enter paper folder path : " paperpath
+
+cd + paperpath
+
+java -Xms128M -Xmx2048M -jar server.jar
+
 elif [[ $user == 99 ]] then
 clear
 cd
