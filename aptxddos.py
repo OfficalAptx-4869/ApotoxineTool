@@ -32,8 +32,7 @@ print(Fore.GREEN + '''
    / \|_   _|_   _|/ \  / ___| |/ /
   / _ \ | |   | | / _ \| |   | ' /
  / ___ \| |   | |/ ___ \ |___| . \
-/_/   \_\_|   |_/_/   \_\____|_|\_\
-''' + Style.RESET_ALL)
+/_/   \_\_|   |_/_/   \_\____|_|\_\ ''' + Style.RESET_ALL)
 print("")
 
 # Terminal header settings and information
