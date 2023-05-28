@@ -21,13 +21,6 @@ display_banner()
 
 # Terminal header settings and information
 os.system('color 0A')
-print("Developer  :   KARTHIK LAL (https://karthiklal.live)")
-print("Created Date:   2022-03-09")
-print('Project     :   DDOS-Attack')
-print('Purpose     :   A simple DDOS-Attack tool to test your network security')
-print('Caution     :   This tool is only for educational purpose. Do not use this for illegal purposes.')
-print()
-
 # Date and Time Declaration and Initialization
 mydate = time.strftime('%Y-%m-%d')
 mytime = time.strftime('%H-%M')
@@ -41,7 +34,7 @@ ip = input("IP Target : ")
 port = eval(input("Port       : "))
 
 # Lets start the attack
-print("Thank you for using the KARTHIK-LAL (DDOS-ATTACK-TOOL).")
+print("Thank you for using the APTX DDos Attack")
 print("Starting the attack on ", ip, " at port ", port, "...")
 
 time.sleep(5)
