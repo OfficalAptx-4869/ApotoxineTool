@@ -169,6 +169,8 @@ cd TBomb
     python2 main.py
     
     elif [[ $user == 6 ]] then
+    clear
+    
     pip install -r ddosrequirements.txt
 
     python3 aptxddos.py
