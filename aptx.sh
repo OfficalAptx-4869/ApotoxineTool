@@ -17,6 +17,10 @@ git clone https://github.com/TheSpeedX/TBomb.git
 clear
 git clone https://github.com/xHak9x/finduser
 clear
+git clone https://github.com/mishakorzik/Ultra-DDos
+clear
+pip3 install requests
+clear
 echo "press any button to start the tool !"
 read
 clear
@@ -71,21 +75,26 @@ echo ""
 echo -e "\e[33m4 - FindUser (SocialMedia Finder)\e[0m"
 echo ""
 
+#Ultra DDos Tool
+echo -e "\e[33m5 - Ultra DDOS (DDos Attack Tool)\e[0m"
+
+echo ""
+
 #Customization
 
 echo "Termux Customization :"
 echo ""
 
 #Termux Packages
-echo -e "\e[33m5 - install All termux Basics\e[0m"
+echo -e "\e[33m6 - install All termux Basics\e[0m"
 echo ""
 
 #Termux Banner
-echo -e "\e[33m6 - Change Termux Banner\e[0m"
+echo -e "\e[33m7 - Change Termux Banner\e[0m"
 echo ""
 
 #Termux Storage
-echo -e "\e[33m7 - setup termux storage\e[0m"
+echo -e "\e[33m8 - setup termux storage\e[0m"
 echo ""
 
 #Operating Systems
@@ -93,22 +102,22 @@ echo "Operating systems :"
 echo ""
 
 #Install Kali Linux
-echo -e "\e[33m8 - Install KaliLinux on Phone\e[0m"
+echo -e "\e[33m9 - Install KaliLinux on Phone\e[0m"
 
 echo ""
 
 #turn on kali linux
-echo -e "\e[33m9 - Run KaliLinux\e[0m"
+echo -e "\e[33m10 - Run KaliLinux\e[0m"
 
 echo ""
 
 #Qeum system
-echo -e "\e[33m10 - Install qemu system\e[0m"
+echo -e "\e[33m11 - Install qemu system\e[0m"
 
 echo ""
 
 #Windows on mobile
-echo -e "\e[33m11 - Run Windows on phone\e[0m"
+echo -e "\e[33m12 - Run Windows on phone\e[0m"
 
 echo ""
 
@@ -146,13 +155,18 @@ cd TBomb
     chmod +x finduser.sh
     ./finduser.sh
     fi
-    
     elif [[ $user == 5 ]] then
+    
+    cd Ultra-DDos
+
+    python2 main.py
+    
+    elif [[ $user == 6 ]] then
 
 pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y && pkg install tor -y && pkg install wget -y && pkg install wcalc -y && pkg install bmon -y && pkg install golang -y && pkg install openssl -y && pkg install cmatrix -y && pkg install openssh -y && pkg install toilet && pkg install sl && pkg install vim && pkg install zsh && pkg install fortune && pkg install zsh && apt update && apt upgrade
         ./aptx.sh
         echo "All Termux Packages installed !"
-      elif [[ $user == 6 ]]; then
+      elif [[ $user == 7 ]]; then
       clear
       git clone https://github.com/Bhai4You/Termux-Banner
 
@@ -168,7 +182,7 @@ bash t-ban.sh
 clear
 echo "please restart termux to save changes"
 
-elif [[ $user == 7 ]] then
+elif [[ $user == 8 ]] then
 
 clear
 
@@ -182,13 +196,13 @@ echo ""
 
 echo -e "\e[32mTERMUX STORAGE SETUPED !\e[0m"
 
-elif [[ $user == 8 ]] then
+elif [[ $user == 9 ]] then
 clear
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 chmod +x install-nethunter-termux
 ./install-nethunter-termux
 
-elif [[ $user == 9 ]] then 
+elif [[ $user == 10 ]] then 
 clear
 echo "Note : You should choose install kaliLinux on phone 
 before choosing run KaliLinux !"
@@ -216,7 +230,7 @@ echo ""
 echo ""
 echo ""
 nethunter
-elif [[ $user == 10 ]] then
+elif [[ $user == 11 ]] then
 clear
 pkg install x11-repo
 pkg install qemu-system-i386-headless -y
@@ -225,7 +239,7 @@ clear
 ./aptx.sh
 echo ""
 echo ""
-elif [[ $user == 11 ]] then 
+elif [[ $user == 12 ]] then 
 clear
 echo "NOTE : Running Windows on mobile requires installing 
 qeum system + setuping termux storage"
