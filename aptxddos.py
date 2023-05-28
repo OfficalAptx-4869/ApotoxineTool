@@ -4,29 +4,37 @@ import socket
 import scapy.all as scapy
 import random
 
-echo -e "\e[32m
+from colorama import init, Fore, Style
+
+init()
+
+print(Fore.GREEN + '''
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
   / _ \ | |_) || |  \  /       
  / ___ \|  __/ | |  /  \        
-/_/   \_\_|    |_| /_/\_\ 
-\e[0m"
-echo ""
-echo -e "\e[32m
- ____  ____   ___  ____
+/_/   \_\_|    |_| /_/\_\ ''' + Style.RESET_ALL)
+print("")
+from colorama import init, Fore, Style
+init()
+print(Fore.GREEN + '''
+
+ ____  ____   ___  ____ 
 |  _ \|  _ \ / _ \/ ___|
-| | | | | | | | | \___ \
+| | | | | | | | | \___ \\
 | |_| | |_| | |_| |___) |
-|____/|____/ \___/|____/
-\e[0m"
-echo ""
-echo -e "\e[32m
+|____/|____/ \___/|____/ ''' + Style.RESET_ALL)
+print("")
+from colorama import init, Fore, Style
+init()
+print(Fore.GREEN + '''
     _  _____ _____  _    ____ _  __
    / \|_   _|_   _|/ \  / ___| |/ /
   / _ \ | |   | | / _ \| |   | ' /
  / ___ \| |   | |/ ___ \ |___| . \
 /_/   \_\_|   |_/_/   \_\____|_|\_\
-\e[0m"
+''' + Style.RESET_ALL)
+print("")
 
 # Terminal header settings and information
 os.system('color 0A')
