@@ -8,7 +8,7 @@ from colorama import init, Fore, Style
 
 init()
 
-print(Fore.GREEN + '''
+print(Fore.RED + '''
     _    ____ _______  __ 
    / \  |  _ \_   _\ \/ /      
   / _ \ | |_) || |  \  /       
@@ -17,24 +17,14 @@ print(Fore.GREEN + '''
 print("")
 from colorama import init, Fore, Style
 init()
-print(Fore.GREEN + '''
+print(Fore.RED + '''
 
  ____  ____   ___  ____ 
 |  _ \|  _ \ / _ \/ ___|
 | | | | | | | | | \___ \\
 | |_| | |_| | |_| |___) |
-|____/|____/ \___/|____/ ''' + Style.RESET_ALL)
+|____/|____/ \___/|____/ Attack ''' + Style.RESET_ALL)
 print("")
-from colorama import init, Fore, Style
-init()
-print(Fore.GREEN + '''
-    _  _____ _____  _    ____ _  __
-   / \|_   _|_   _|/ \  / ___| |/ /
-  / _ \ | |   | | / _ \| |   | ' /
- / ___ \| |   | |/ ___ \ |___| . \
-/_/   \_\_|   |_/_/   \_\____|_|\_\ ''' + Style.RESET_ALL)
-print("")
-
 # Terminal header settings and information
 os.system('color 0A')
 # Date and Time Declaration and Initialization
