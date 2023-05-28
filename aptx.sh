@@ -172,6 +172,8 @@ cd TBomb
     clear
     
     pip install -r ddosrequirements.txt
+    
+    clear
 
     python3 aptxddos.py
     
