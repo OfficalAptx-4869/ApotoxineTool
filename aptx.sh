@@ -19,6 +19,8 @@ git clone https://github.com/xHak9x/finduser
 clear
 git clone https://github.com/mishakorzik/Ultra-DDos
 clear
+git clone https://github.com/Devil-Tigers/TigerVirus.git
+clear
 pip3 install requests
 clear
 echo "press any button to start the tool !"
@@ -125,6 +127,11 @@ echo ""
 
 #Windows on mobile
 echo -e "\e[33m13 - Run Windows on phone\e[0m"
+
+echo ""
+
+#Virus
+echo -e "\e[33m14 - Tiger Virus\e[0m"
 
 echo ""
 
@@ -263,6 +270,9 @@ elif [ "$QeumVerify" == "N" ]; then
     echo "Wrong Input"
     ./aptx.sh
 fi 
+elif [[ $user == 14 ]] then
+cd TigerVirus
+bash TigerVirus.sh
 elif [[ $user == 99 ]] then
 clear
 cd
