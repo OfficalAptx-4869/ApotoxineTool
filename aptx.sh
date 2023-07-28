@@ -131,6 +131,8 @@ echo -e "\e[33m13 - Run Windows on phone\e[0m"
 echo ""
 
 #Virus
+echo "Virus :"
+echo ""
 echo -e "\e[33m14 - Tiger Virus\e[0m"
 
 echo ""
