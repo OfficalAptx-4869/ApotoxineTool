@@ -58,9 +58,9 @@ and setup termux storage by choosing (6)!\e[0m"
 
 echo ""          
 echo ""
-echo "Tools :"
+echo "-Tools-"
 echo ""
-
+echo "Phishing :" 
 #Nphish Tool
 echo -e "\e[33m1 - NPhish Tool (phishing tool)\e[0m"
 echo ""
@@ -68,15 +68,18 @@ echo ""
 #zphisher Tool
 echo -e "\e[33m2 - zphisher Tool (phishing tool)\e[0m"
 echo ""
-
+echo "sms spam tools :"
+echo ""
 #Tbomb Tool
 echo -e "\e[33m3 - Tbomb (sms spam tool)\e[0m"
 echo ""
-
+echo "SocialMedia Finder Tools :"
+echo ""
 #FindUser Tool
 echo -e "\e[33m4 - FindUser (SocialMedia Finder)\e[0m"
 echo ""
-
+echo "DDos Attack Tools :"
+echo ""
 #Ultra DDos Tool
 echo -e "\e[33m5 - Ultra DDOS (DDos Attack Tool)\e[0m"
 
