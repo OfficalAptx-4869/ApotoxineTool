@@ -214,38 +214,11 @@ echo -e "\e[32mTERMUX STORAGE SETUPED !\e[0m"
 
 elif [[ $user == 10 ]] then
 clear
-wget -O install-nethunter-termux https://offs.ec/2MceZWr
-chmod +x install-nethunter-termux
-./install-nethunter-termux
+echo "Coming soon !.."
 
 elif [[ $user == 11 ]] then 
 clear
-echo "Note : You should choose install kaliLinux on phone 
-before choosing run KaliLinux !"
-echo ""
-echo "How to run Kali Linux :"
-echo ""
-echo "- type passwd"
-echo ""
-echo "(if it asked you about current password type ""kali"") "
-echo ""
-echo "- type your password"
-echo ""
-echo "- type your password again to verify"
-echo ""
-echo "- type kex"
-echo ""
-echo "install Nethunter kex"
-echo ""
-echo "Set Port : 5901"
-echo ""
-echo "set password : (your password)"
-echo ""
-echo "thank you for using AptxTool"
-echo ""
-echo ""
-echo ""
-nethunter
+echo "Coming soon !.."
 elif [[ $user == 12 ]] then
 clear
 pkg install x11-repo
