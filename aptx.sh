@@ -61,6 +61,7 @@ echo ""
 echo "-Tools-"
 echo ""
 echo "Phishing :" 
+echo ""
 #Nphish Tool
 echo -e "\e[33m1 - NPhish Tool (phishing tool)\e[0m"
 echo ""
